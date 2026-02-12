@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Pro App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🏋️ Fitness Pro App</h1>
+
+    <div class="container">
+
+        <h2>Enter Your Details</h2>
+
+        <label>Body Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter weight">
+
+        <label>Select Goal:</label>
+        <select id="goal">
+            <option value="loss">Weight Loss</option>
+            <option value="gain">Muscle Building</option>
+        </select>
+
+        <button onclick="generatePlan()">Generate Plan</button>
+
+        <div id="output"></div>
+
+        <hr>
+
+        <h2>📅 Weekly Workout Routine</h2>
+
+        <div class="workout">
+            <h3>Day 1 – Chest + Triceps</h3>
+            <p>Bench Press (4x10), Push-ups (3x15), Incline Press (3x10), Dips (3x12)</p>
+
+            <h3>Day 2 – Back + Biceps</h3>
+            <p>Pull-ups (4x10), Barbell Row (3x10), Seated Row (3x12), Curls (3x12)</p>
+
+            <h3>Day 3 – Legs</h3>
+            <p>Squats (4x10), Leg Press (3x12), Lunges (3x12), Calf Raises (4x15)</p>
+
+            <h3>Day 4 – Shoulders</h3>
+            <p>Shoulder Press (4x10), Lateral Raises (3x15), Rear Delt Fly (3x12)</p>
+
+            <h3>Day 5 – Core</h3>
+            <p>Plank (3x1min), Crunches (3x20), Leg Raises (3x15)</p>
+
+            <h3>Day 6 – Cardio + Full Body</h3>
+            <p>Running (20 mins), Burpees (3x15), Jump Squats (3x15)</p>
+
+            <h3>Day 7 – Rest / Recovery</h3>
+            <p>Light walking, Stretching, Yoga</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

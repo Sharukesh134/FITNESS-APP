@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    margin: 40px auto;
+    width: 70%;
+    border-radius: 12px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff9800;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+#output {
+    margin-top: 20px;
+    text-align: left;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+}
+
+.workout {
+    text-align: left;
+}
